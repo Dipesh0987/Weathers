@@ -17,16 +17,11 @@ else{
 
 
 #creating database
-$createDatabase = "CREATE DATABASE IF NOT EXISTS Current";
-if(mysqli_query($conn, $createDatabase)){
-    // echo "Database created <br>";
-}else{
-    echo "Failed to create database <br>".mysqli_connect_error();
-}
+
 
 
 #selecting the database we created
-mysqli_select_db($conn, "Current");
+mysqli_select_db($conn, "railway");
 
 #create table in the database
 $createTable = "CREATE TABLE IF NOT EXISTS WEATHER(
