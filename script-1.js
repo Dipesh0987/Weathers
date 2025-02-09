@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost/prototype003/connection.php?t=";
+const apiUrl = "https://weathers-production.up.railway.app/connection.php?t=";
 
 
 const searchBox = document.querySelector(".search input");
