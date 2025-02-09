@@ -2,11 +2,11 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
-$serverName = "mysql.railway.app";
+$serverName = "junction.proxy.rlwy.net";
 $userName = "root";
 $password = "pdGaAeEtDanpjUpsvBrpJgKyKWUIamrI";
 $db = "railway";
-$port = "3306";
+$port = "22029";
 $conn = mysqli_connect($serverName, $userName, $password, $db, $port);
 if($conn){
     // echo "Connection Successful <br>";
