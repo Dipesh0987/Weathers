@@ -2,7 +2,7 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
-$serverName = "mysql.railway.internal";
+$serverName = "mysql.railway.app";
 $userName = "root";
 $password = "pdGaAeEtDanpjUpsvBrpJgKyKWUIamrI";
 $db = "railway";
